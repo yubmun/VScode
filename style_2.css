@@ -1,0 +1,35 @@
+p{
+    text-align: center;
+    color:red;
+}
+p.center{
+    text-align: right;
+    color: blue;
+}
+#center{
+    text-align: left;
+    color: green;
+}
+h1,h2{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+h2 b{
+    color: blue;
+}
+/* h2{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+} ctrl + shift + / 하면 해당 줄만 주석처리 가능, 밀려쓰기 없이*/
+
+h3 {
+    color: red ; /*!important*/
+}
+.text{
+    color: blue;
+}
+#text{
+    color:green;
+}

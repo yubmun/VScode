@@ -1,0 +1,66 @@
+.parent{
+    border: 5px solid red;
+    width:600px;
+    /* height: 200px; */
+    overflow: hidden;
+}
+.child{
+    background-color: gold;
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+.parent-2{
+    border: 5px solid red;
+    width: 600px;
+    overflow: hidden;
+    text-align: center;
+}
+.child-2{
+    background-color: gold;
+    width: 200px;
+    height: 100px;
+    margin : auto;
+}
+
+.parent-3{
+    border: 5px solid red;
+    width: 600px;
+    text-align: center;
+}
+.top{
+    background-color: purple;
+    height: 50px;
+}
+.left{
+    background-color: skyblue;
+    height: 100px;
+    width: 200px;
+    float:left;
+
+}
+.right{
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+    float:right;
+}
+.clear{
+    background-color: purple;
+    height: 50px;
+    clear:both;
+}
+section{
+    border: 5px solid black;
+    width: 600px;
+    overflow: hidden;
+
+}
+section article{
+    background-color: gold;
+    width: 200px;
+    height: 100px;
+    float: left;
+    border: 1px solid red;
+    box-sizing: border-box;
+}

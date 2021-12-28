@@ -1,0 +1,44 @@
+.menu {
+    list-style: none;
+}
+.menu li:before {
+    content: 'ㅁ';
+}
+.parent{
+    border: 1px solid red;
+    width: 600px;
+    height: 600px;
+}
+.child{
+    border: 1px solid blue;
+    width: 200px;
+    height: 50px;
+    
+}
+.box{
+    border: 1px solid red;
+    width: 400px;
+    height: 400px;
+}
+.box div{
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    /* box class 안에 있는 div 는 모두 해당 css를 적용하라는 의미 */
+    /* 바로 밑에있는 div 만 적용시켜주려면 > (꺽새)를 작성해줘야 함 */
+}
+.box>div div{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.box-2{
+    width: 400px;
+    height: 400px;
+    /* border-color: blueviolet;
+    border-width: 5px;
+    border-style:groove; */
+    border: 5px solid rgb(211, 17, 211);
+    /* px width color 순서는 바뀌어도 상관 없음 left right top bottom 으로 따로 지정할 수 있음, 4개의 선 중 한쪽이 없었으면 좋겠다? = border-방향:none; 마찬가지로 색을 변경할 수 있음 */
+}

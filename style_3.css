@@ -1,0 +1,24 @@
+body{
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+h1 {
+    font-weight: normal;
+    color: rgb(50, 214, 77);
+    text-decoration:line-through;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.text{
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+}
+
+p.copy{
+    text-transform: uppercase;
+}
